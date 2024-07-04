@@ -20,4 +20,4 @@ ENTRYPOINT [ "python3", "main.py" ]
 
 #sudo docker build -t prueba .
 #sudo docker run --rm -it prueba bash 
-#sudo docker run --rm --volume /home/delia/DVM/prueba_docker/:/workspace -it prueba bash
+#sudo docker run --rm --volume /home/delia/DVM/:/workspace/results -it prueba bash
